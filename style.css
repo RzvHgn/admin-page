@@ -163,7 +163,7 @@ main {
     padding-bottom: 0;
     gap:20px;
 }
-.priject-container .project {
+.project-container .project {
     padding: 20px;
     background: white;
     border-left: 10px solid orange;
@@ -179,3 +179,10 @@ main {
     place-content: end;
     gap: 10px;
 }
+.project > div:first-line {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
