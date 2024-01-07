@@ -185,4 +185,48 @@ main {
     line-height: 30px;
 }
 
-
+.announcement {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+  .head {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .announcement > article > div {
+    border-bottom: 1px solid grey;
+    padding: 20px;
+  }
+  .announcement > article > div:first-line {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .trending {
+    grid-area: 2/3;
+    display: flex;
+    flex-direction: column;
+  }
+  .trending article {
+    display: flex;
+    flex-direction: column;
+  }
+  .trending article > div {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    line-height: 25px;
+    gap: 20px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    flex: 1;
+  }
